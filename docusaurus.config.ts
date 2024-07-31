@@ -3,8 +3,8 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "Itsuki Kigoshi - Profile",
-  tagline: "Dinosaurs are cool",
+  title: "Itsuki Kigoshi",
+  tagline: "ICU '27 (2004)",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -58,10 +58,10 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "My Site",
+      title: "Itsuki Kigoshi",
       logo: {
         alt: "My Site Logo",
-        src: "img/logo.svg",
+        src: "img/profile.jpg",
       },
       items: [
         {
@@ -71,11 +71,6 @@ const config: Config = {
           label: "Tutorial",
         },
         { to: "/blog", label: "Blog", position: "left" },
-        {
-          href: "https://github.com/facebook/docusaurus",
-          label: "GitHub",
-          position: "right",
-        },
       ],
     },
     footer: {
@@ -91,19 +86,19 @@ const config: Config = {
           ],
         },
         {
-          title: "Community",
+          title: "Social Links",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              label: "Instagram",
+              href: "https://instagram.com/itsukikigoshi",
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              href: "https://twitter.com/itsukikigoshi",
+            },
+            {
+              label: "GitHub",
+              href: "https://github.com/itsukikigoshi",
             },
           ],
         },
@@ -114,14 +109,10 @@ const config: Config = {
               label: "Blog",
               to: "/blog",
             },
-            {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
-            },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />Copyright © ${new Date().getFullYear()} by Itsuki Kigoshi is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.<br />Built with <a href="https://docusaurus.io">Docusaurus</a>.`,
     },
     prism: {
       theme: prismThemes.github,
